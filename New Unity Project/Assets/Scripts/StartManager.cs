@@ -25,7 +25,7 @@ public class StartManager : MonoBehaviour
     }
     private IEnumerator NextSceneLoading()
     {
-        yield return new WaitForSeconds(6f);
+        yield return new WaitForSeconds(3f);
         SceneManager.LoadScene(1);
 
     }
