@@ -889,6 +889,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!223 &719576806
 Canvas:
   m_ObjectHideFlags: 0
@@ -998,6 +999,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -1763,7 +1765,7 @@ GameObject:
   - component: {fileID: 1789862011}
   - component: {fileID: 1789862010}
   m_Layer: 0
-  m_Name: Audio Source
+  m_Name: WaterSound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1781,7 +1783,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 047e4f9e619bdb54dbbc7bb4bf339d52, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.408
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2152,7 +2154,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 68af53c3349a8834f800ebf9f8106d2e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b4c35f66e8bdab8489b9cedda75b0a30, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
