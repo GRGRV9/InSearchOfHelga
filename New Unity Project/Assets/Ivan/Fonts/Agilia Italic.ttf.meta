@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 29ee3836a502b714b9d805db7ead4eca
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Agilia
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a0ddcd3f1a0aa2142919b0424726ac8c, type: 3}
+  - {fileID: 12800000, guid: 30fba18f1243e7242bc4215fa2b93ae5, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

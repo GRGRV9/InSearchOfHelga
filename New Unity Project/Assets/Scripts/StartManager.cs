@@ -1,13 +1,11 @@
 ﻿using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class StartManager : MonoBehaviour
 {
-    public Animator ShipAnimator;   
-    public AudioSource ShipStartSound;
-    public GameObject StartButton;
+    public Animator ShipAnimator;  
+    public AudioSource ShipStartSound;    
 
 
     void Start()
@@ -20,8 +18,7 @@ public class StartManager : MonoBehaviour
     {
         ShipAnimator.SetBool("IsStarted", true);
         ShipStartSound.Play();
-        StartCoroutine(NextSceneLoading());
-        StartButton.SetActive(false);
+        StartCoroutine(NextSceneLoading());        
     }
     private IEnumerator NextSceneLoading()
     {
