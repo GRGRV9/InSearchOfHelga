@@ -7,6 +7,8 @@ public class IslandSelector : MonoBehaviour
     public GameObject NavigationMarker;
     public Vector3 PickedIslandPosition;
     public GameObject Ship;
+    public GameObject ResourcesSheet;
+    public float DistanceToMarker;
 
     void Update()
     {
@@ -21,14 +23,21 @@ public class IslandSelector : MonoBehaviour
             RaycastHit2D hit = Physics2D.Raycast(raycastPosition, Vector2.zero);
 
             if(hit.collider.gameObject.tag == "Island")
-            {       
-                
+            {                       
                 NavigationMarker.transform.position = hit.collider.gameObject.transform.position;
+                ResourcesSheet.SetActive(true);
+                CalculateDistanceToMarker();
             }
             else
             {                
-                NavigationMarker.transform.position = Ship.transform.position;
+                //NavigationMarker.transform.position = Ship.transform.position;
             }
         }
+    }
+
+    void CalculateDistanceToMarker()
+    {
+        DistanceToMarker = Vector2.Distance(Ship.transform.position, NavigationMarker.transform.position);
+        Debug.Log(DistanceToMarker);
     }
 }
