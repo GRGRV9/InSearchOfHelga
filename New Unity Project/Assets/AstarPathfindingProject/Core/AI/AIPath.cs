@@ -6,6 +6,7 @@ namespace Pathfinding {
 	using Pathfinding.RVO;
 	using Pathfinding.Util;
 
+
 	/// <summary>
 	/// AI for following paths.
 	/// This AI is the default movement script which comes with the A* Pathfinding Project.
@@ -60,6 +61,8 @@ namespace Pathfinding {
 	/// </summary>
 	[AddComponentMenu("Pathfinding/AI/AIPath (2D,3D)")]
 	public partial class AIPath : AIBase, IAstarAI {
+
+
 		/// <summary>
 		/// How quickly the agent accelerates.
 		/// Positive values represent an acceleration in world units per second squared.
@@ -267,7 +270,9 @@ namespace Pathfinding {
 		/// This method will be called again if a new path is calculated as the destination may have changed.
 		/// So when the agent is close to the destination this method will typically be called every <see cref="repathRate"/> seconds.
 		/// </summary>
-		public virtual void OnTargetReached () {
+		public virtual void OnTargetReached () 
+		{
+
 		}
 
 		/// <summary>

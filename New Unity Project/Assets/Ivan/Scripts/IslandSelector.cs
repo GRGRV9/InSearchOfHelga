@@ -6,8 +6,7 @@ public class IslandSelector : MonoBehaviour
 {
     public GameObject NavigationMarker;
     public Vector3 PickedIslandPosition;
-    public GameObject Ship;
-    public GameObject ResourcesSheet;
+    public GameObject Ship;    
     public float DistanceToMarker;
 
     void Update()
@@ -24,8 +23,7 @@ public class IslandSelector : MonoBehaviour
 
             if(hit.collider.gameObject.tag == "Island")
             {                       
-                NavigationMarker.transform.position = hit.collider.gameObject.transform.position;
-                ResourcesSheet.SetActive(true);
+                NavigationMarker.transform.position = hit.collider.gameObject.transform.position;                
                 CalculateDistanceToMarker();
             }
             else
@@ -37,7 +35,6 @@ public class IslandSelector : MonoBehaviour
 
     void CalculateDistanceToMarker()
     {
-        DistanceToMarker = Vector2.Distance(Ship.transform.position, NavigationMarker.transform.position);
-        Debug.Log(DistanceToMarker);
+        DistanceToMarker = Vector2.Distance(Ship.transform.position, NavigationMarker.transform.position);        
     }
 }
