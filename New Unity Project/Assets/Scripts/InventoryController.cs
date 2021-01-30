@@ -7,7 +7,6 @@ public class InventoryController : MonoBehaviour
     [SerializeField] private Animator controller;
     void Start()
     {
-        
     }
 
     void Update()
