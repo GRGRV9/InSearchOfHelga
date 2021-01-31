@@ -12,7 +12,7 @@ public class SailCostViewer : MonoBehaviour
     double DistanceToShip;
     double FoodCost;
     double WaterCost;
-    double MaterialCost;
+    double MaterialCost;    
 
 
     // Start is called before the first frame update
