@@ -2572,9 +2572,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 651959665}
-  WaterCost: {fileID: 1553789774}
-  MaterialCost: {fileID: 962863300}
+  Canvas: {fileID: 1268265053}
+  FoodCostText: {fileID: 651959665}
+  WaterCostText: {fileID: 1553789774}
+  MaterialCostText: {fileID: 962863300}
 --- !u!70 &168380926
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -4355,9 +4356,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 906292102}
-  WaterCost: {fileID: 205613584}
-  MaterialCost: {fileID: 1014976073}
+  Canvas: {fileID: 670196130}
+  FoodCostText: {fileID: 906292102}
+  WaterCostText: {fileID: 205613584}
+  MaterialCostText: {fileID: 1014976073}
 --- !u!70 &291850406
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -5045,9 +5047,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 2076261355}
-  WaterCost: {fileID: 373323952}
-  MaterialCost: {fileID: 1695876129}
+  Canvas: {fileID: 1418295452}
+  FoodCostText: {fileID: 2076261355}
+  WaterCostText: {fileID: 373323952}
+  MaterialCostText: {fileID: 1695876129}
 --- !u!70 &341474614
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -5162,9 +5165,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 1703540806}
-  WaterCost: {fileID: 335829288}
-  MaterialCost: {fileID: 494034325}
+  Canvas: {fileID: 1368723410}
+  FoodCostText: {fileID: 1703540806}
+  WaterCostText: {fileID: 335829288}
+  MaterialCostText: {fileID: 494034325}
 --- !u!70 &342420230
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -5472,6 +5476,7 @@ GameObject:
   - component: {fileID: 353264742}
   - component: {fileID: 353264743}
   - component: {fileID: 353264744}
+  - component: {fileID: 353264745}
   m_Layer: 0
   m_Name: ShipEmission
   m_TagString: Untagged
@@ -5560,6 +5565,25 @@ CircleCollider2D:
   m_Offset: {x: 0.93503314, y: 0}
   serializedVersion: 2
   m_Radius: 4.297638
+--- !u!95 &353264745
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353264741}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2be73072652bf02449381494f472722d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &354348371
 GameObject:
   m_ObjectHideFlags: 0
@@ -7558,9 +7582,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 2137470263}
-  WaterCost: {fileID: 1040818515}
-  MaterialCost: {fileID: 1396899810}
+  Canvas: {fileID: 954661056}
+  FoodCostText: {fileID: 2137470263}
+  WaterCostText: {fileID: 1040818515}
+  MaterialCostText: {fileID: 1396899810}
 --- !u!70 &455267028
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -8398,9 +8423,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 2145476503}
-  WaterCost: {fileID: 1147597609}
-  MaterialCost: {fileID: 473222545}
+  Canvas: {fileID: 1105530936}
+  FoodCostText: {fileID: 2145476503}
+  WaterCostText: {fileID: 1147597609}
+  MaterialCostText: {fileID: 473222545}
 --- !u!70 &531710742
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -8779,9 +8805,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 315172956}
-  WaterCost: {fileID: 680767421}
-  MaterialCost: {fileID: 1756222293}
+  Canvas: {fileID: 1616904588}
+  FoodCostText: {fileID: 315172956}
+  WaterCostText: {fileID: 680767421}
+  MaterialCostText: {fileID: 1756222293}
 --- !u!70 &563222830
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -9311,9 +9338,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 1486346837}
-  WaterCost: {fileID: 819824811}
-  MaterialCost: {fileID: 732775582}
+  Canvas: {fileID: 544864753}
+  FoodCostText: {fileID: 1486346837}
+  WaterCostText: {fileID: 819824811}
+  MaterialCostText: {fileID: 732775582}
 --- !u!70 &602836197
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -9821,7 +9849,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 633390368}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.75, y: 0, z: 0}
+  m_LocalPosition: {x: 3.75, y: 0.33, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1492793315}
@@ -10341,9 +10369,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 305342220}
-  WaterCost: {fileID: 1005443090}
-  MaterialCost: {fileID: 671925770}
+  Canvas: {fileID: 64350022}
+  FoodCostText: {fileID: 305342220}
+  WaterCostText: {fileID: 1005443090}
+  MaterialCostText: {fileID: 671925770}
 --- !u!1 &664747880
 GameObject:
   m_ObjectHideFlags: 0
@@ -11971,9 +12000,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 1813157156}
-  WaterCost: {fileID: 1260992042}
-  MaterialCost: {fileID: 622649294}
+  Canvas: {fileID: 1523703385}
+  FoodCostText: {fileID: 1813157156}
+  WaterCostText: {fileID: 1260992042}
+  MaterialCostText: {fileID: 622649294}
 --- !u!70 &760692350
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -12558,9 +12588,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 354348373}
-  WaterCost: {fileID: 685736724}
-  MaterialCost: {fileID: 1506971361}
+  Canvas: {fileID: 1373974058}
+  FoodCostText: {fileID: 354348373}
+  WaterCostText: {fileID: 685736724}
+  MaterialCostText: {fileID: 1506971361}
 --- !u!70 &797759734
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -12908,9 +12939,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 353132321}
-  WaterCost: {fileID: 667120000}
-  MaterialCost: {fileID: 2091693198}
+  Canvas: {fileID: 1673151080}
+  FoodCostText: {fileID: 353132321}
+  WaterCostText: {fileID: 667120000}
+  MaterialCostText: {fileID: 2091693198}
 --- !u!70 &823729087
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -15763,9 +15795,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 244676478}
-  WaterCost: {fileID: 1223739067}
-  MaterialCost: {fileID: 77702599}
+  Canvas: {fileID: 1435106583}
+  FoodCostText: {fileID: 244676478}
+  WaterCostText: {fileID: 1223739067}
+  MaterialCostText: {fileID: 77702599}
 --- !u!70 &979849287
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -16291,9 +16324,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 777882971}
-  WaterCost: {fileID: 783712799}
-  MaterialCost: {fileID: 1753567690}
+  Canvas: {fileID: 565439265}
+  FoodCostText: {fileID: 777882971}
+  WaterCostText: {fileID: 783712799}
+  MaterialCostText: {fileID: 1753567690}
 --- !u!70 &1003225909
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -17650,9 +17684,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 1074198974}
-  WaterCost: {fileID: 2004225941}
-  MaterialCost: {fileID: 1873728046}
+  Canvas: {fileID: 472924521}
+  FoodCostText: {fileID: 1074198974}
+  WaterCostText: {fileID: 2004225941}
+  MaterialCostText: {fileID: 1873728046}
 --- !u!70 &1072556607
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -18472,7 +18507,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1127965809}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.34, y: -2.64, z: 14.128715}
+  m_LocalPosition: {x: -4.38, y: -2.64, z: 14.128715}
   m_LocalScale: {x: 0.05, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1786140592}
@@ -18734,9 +18769,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 1672565183}
-  WaterCost: {fileID: 1172700301}
-  MaterialCost: {fileID: 1198478707}
+  Canvas: {fileID: 1777313876}
+  FoodCostText: {fileID: 1672565183}
+  WaterCostText: {fileID: 1172700301}
+  MaterialCostText: {fileID: 1198478707}
 --- !u!70 &1137521931
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -19005,9 +19041,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 224528789}
-  WaterCost: {fileID: 1665501097}
-  MaterialCost: {fileID: 1318654680}
+  Canvas: {fileID: 1384568254}
+  FoodCostText: {fileID: 224528789}
+  WaterCostText: {fileID: 1665501097}
+  MaterialCostText: {fileID: 1318654680}
 --- !u!70 &1148999857
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -19122,9 +19159,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 1690440496}
-  WaterCost: {fileID: 1723542421}
-  MaterialCost: {fileID: 1088535751}
+  Canvas: {fileID: 472924521}
+  FoodCostText: {fileID: 1690440496}
+  WaterCostText: {fileID: 1723542421}
+  MaterialCostText: {fileID: 1088535751}
 --- !u!70 &1153278079
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -19306,9 +19344,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 2110383611}
-  WaterCost: {fileID: 1844330622}
-  MaterialCost: {fileID: 1361536491}
+  Canvas: {fileID: 630127475}
+  FoodCostText: {fileID: 2110383611}
+  WaterCostText: {fileID: 1844330622}
+  MaterialCostText: {fileID: 1361536491}
 --- !u!1 &1160884774
 GameObject:
   m_ObjectHideFlags: 0
@@ -20133,9 +20172,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 1581645435}
-  WaterCost: {fileID: 491479133}
-  MaterialCost: {fileID: 243537200}
+  Canvas: {fileID: 381747259}
+  FoodCostText: {fileID: 1581645435}
+  WaterCostText: {fileID: 491479133}
+  MaterialCostText: {fileID: 243537200}
 --- !u!70 &1187645745
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -21918,9 +21958,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 1224561856}
-  WaterCost: {fileID: 1407164459}
-  MaterialCost: {fileID: 51626169}
+  Canvas: {fileID: 1241559056}
+  FoodCostText: {fileID: 1224561856}
+  WaterCostText: {fileID: 1407164459}
+  MaterialCostText: {fileID: 51626169}
 --- !u!70 &1292992295
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -22316,9 +22357,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 168276356}
-  WaterCost: {fileID: 722033830}
-  MaterialCost: {fileID: 626797308}
+  Canvas: {fileID: 995519346}
+  FoodCostText: {fileID: 168276356}
+  WaterCostText: {fileID: 722033830}
+  MaterialCostText: {fileID: 626797308}
 --- !u!70 &1300737377
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -22622,9 +22664,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 1705769316}
-  WaterCost: {fileID: 1583840481}
-  MaterialCost: {fileID: 1293294493}
+  Canvas: {fileID: 1636693553}
+  FoodCostText: {fileID: 1705769316}
+  WaterCostText: {fileID: 1583840481}
+  MaterialCostText: {fileID: 1293294493}
 --- !u!70 &1316048957
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -23648,9 +23691,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 1063403740}
-  WaterCost: {fileID: 257958026}
-  MaterialCost: {fileID: 1316499850}
+  Canvas: {fileID: 333459736}
+  FoodCostText: {fileID: 1063403740}
+  WaterCostText: {fileID: 257958026}
+  MaterialCostText: {fileID: 1316499850}
 --- !u!70 &1345451495
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -23840,9 +23884,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 1690432150}
-  WaterCost: {fileID: 2016962285}
-  MaterialCost: {fileID: 988840105}
+  Canvas: {fileID: 1329277218}
+  FoodCostText: {fileID: 1690432150}
+  WaterCostText: {fileID: 2016962285}
+  MaterialCostText: {fileID: 988840105}
 --- !u!70 &1351098003
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -24327,9 +24372,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 796146858}
-  WaterCost: {fileID: 597496906}
-  MaterialCost: {fileID: 1806165595}
+  Canvas: {fileID: 1316111986}
+  FoodCostText: {fileID: 796146858}
+  WaterCostText: {fileID: 597496906}
+  MaterialCostText: {fileID: 1806165595}
 --- !u!70 &1356868239
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -24519,9 +24565,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 2080912594}
-  WaterCost: {fileID: 371803230}
-  MaterialCost: {fileID: 36508073}
+  Canvas: {fileID: 1220467713}
+  FoodCostText: {fileID: 2080912594}
+  WaterCostText: {fileID: 371803230}
+  MaterialCostText: {fileID: 36508073}
 --- !u!70 &1360441981
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -25936,9 +25983,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 307665680}
-  WaterCost: {fileID: 385059461}
-  MaterialCost: {fileID: 1650057372}
+  Canvas: {fileID: 1214244695}
+  FoodCostText: {fileID: 307665680}
+  WaterCostText: {fileID: 385059461}
+  MaterialCostText: {fileID: 1650057372}
 --- !u!70 &1427608373
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -26160,9 +26208,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 356858894}
-  WaterCost: {fileID: 168160092}
-  MaterialCost: {fileID: 423558280}
+  Canvas: {fileID: 2019058273}
+  FoodCostText: {fileID: 356858894}
+  WaterCostText: {fileID: 168160092}
+  MaterialCostText: {fileID: 423558280}
 --- !u!70 &1441981462
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -27171,9 +27220,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 90120417}
-  WaterCost: {fileID: 398282892}
-  MaterialCost: {fileID: 133206643}
+  Canvas: {fileID: 1911907301}
+  FoodCostText: {fileID: 90120417}
+  WaterCostText: {fileID: 398282892}
+  MaterialCostText: {fileID: 133206643}
 --- !u!70 &1518336788
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -28157,9 +28207,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 1657221264}
-  WaterCost: {fileID: 1798823421}
-  MaterialCost: {fileID: 473145519}
+  Canvas: {fileID: 1462068950}
+  FoodCostText: {fileID: 1657221264}
+  WaterCostText: {fileID: 1798823421}
+  MaterialCostText: {fileID: 473145519}
 --- !u!70 &1574254285
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -28274,9 +28325,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 114840025}
-  WaterCost: {fileID: 1345394806}
-  MaterialCost: {fileID: 1747863322}
+  Canvas: {fileID: 80137259}
+  FoodCostText: {fileID: 114840025}
+  WaterCostText: {fileID: 1345394806}
+  MaterialCostText: {fileID: 1747863322}
 --- !u!70 &1577837094
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -29595,7 +29647,7 @@ MonoBehaviour:
   NavigationMarker: {fileID: 1127965809}
   PickedIslandPosition: {x: 0, y: 0, z: 0}
   Ship: {fileID: 1994155088}
-  DistanceToMarker: 0
+  ShipStartSound: {fileID: 1294555181}
 --- !u!1 &1656885932
 GameObject:
   m_ObjectHideFlags: 0
@@ -32084,9 +32136,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 749050840}
-  WaterCost: {fileID: 1490775283}
-  MaterialCost: {fileID: 2014188194}
+  Canvas: {fileID: 1798188620}
+  FoodCostText: {fileID: 749050840}
+  WaterCostText: {fileID: 1490775283}
+  MaterialCostText: {fileID: 2014188194}
 --- !u!70 &1785660276
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -32163,7 +32216,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1786140592}
-  - component: {fileID: 1786140593}
   m_Layer: 0
   m_Name: MapSystem
   m_TagString: Untagged
@@ -32191,18 +32243,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1786140593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1786140591}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cad0389acdb4c548825dcdc021b97ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1789952203
 GameObject:
   m_ObjectHideFlags: 0
@@ -32250,9 +32290,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 1135839951}
-  WaterCost: {fileID: 847540497}
-  MaterialCost: {fileID: 1637931240}
+  Canvas: {fileID: 2083004190}
+  FoodCostText: {fileID: 1135839951}
+  WaterCostText: {fileID: 847540497}
+  MaterialCostText: {fileID: 1637931240}
 --- !u!70 &1789952206
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -32581,9 +32622,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 1761830727}
-  WaterCost: {fileID: 820010397}
-  MaterialCost: {fileID: 1038365206}
+  Canvas: {fileID: 121934732}
+  FoodCostText: {fileID: 1761830727}
+  WaterCostText: {fileID: 820010397}
+  MaterialCostText: {fileID: 1038365206}
 --- !u!70 &1798476461
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -33700,9 +33742,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 885987809}
-  WaterCost: {fileID: 964806546}
-  MaterialCost: {fileID: 2067911868}
+  Canvas: {fileID: 361977850}
+  FoodCostText: {fileID: 885987809}
+  WaterCostText: {fileID: 964806546}
+  MaterialCostText: {fileID: 2067911868}
 --- !u!70 &1867855882
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -34530,9 +34573,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 1611361103}
-  WaterCost: {fileID: 1033670963}
-  MaterialCost: {fileID: 1700993347}
+  Canvas: {fileID: 959917272}
+  FoodCostText: {fileID: 1611361103}
+  WaterCostText: {fileID: 1033670963}
+  MaterialCostText: {fileID: 1700993347}
 --- !u!70 &1925487966
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -34876,9 +34920,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 1324377276}
-  WaterCost: {fileID: 1686036771}
-  MaterialCost: {fileID: 1751491764}
+  Canvas: {fileID: 1795530325}
+  FoodCostText: {fileID: 1324377276}
+  WaterCostText: {fileID: 1686036771}
+  MaterialCostText: {fileID: 1751491764}
 --- !u!70 &1953762917
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -35545,7 +35590,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1994155088}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.240001, y: -2.51, z: 14.128715}
+  m_LocalPosition: {x: -4.37, y: -2.51, z: 14.128715}
   m_LocalScale: {x: 0.1, y: 0.1, z: 1}
   m_Children:
   - {fileID: 353264742}
@@ -35667,8 +35712,6 @@ MonoBehaviour:
   orientation: 1
   enableRotation: 0
   targetCompatibility: {fileID: 0}
-  ShipAnimator: {fileID: 0}
-  ShipStartSound: {fileID: 0}
   maxAcceleration: -2.5
   rotationSpeed: 360
   slowdownDistance: 0.6
@@ -35678,6 +35721,7 @@ MonoBehaviour:
   slowWhenNotFacingTarget: 1
   whenCloseToDestination: 0
   constrainInsideGraph: 0
+  isTargetReached: 0
 --- !u!114 &1994155094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35921,9 +35965,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 1379639575}
-  WaterCost: {fileID: 1323230039}
-  MaterialCost: {fileID: 1462500690}
+  Canvas: {fileID: 1976563551}
+  FoodCostText: {fileID: 1379639575}
+  WaterCostText: {fileID: 1323230039}
+  MaterialCostText: {fileID: 1462500690}
 --- !u!70 &2010076902
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -37097,9 +37142,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 449084317}
-  WaterCost: {fileID: 775113484}
-  MaterialCost: {fileID: 1762930142}
+  Canvas: {fileID: 2106884508}
+  FoodCostText: {fileID: 449084317}
+  WaterCostText: {fileID: 775113484}
+  MaterialCostText: {fileID: 1762930142}
 --- !u!70 &2091302182
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -38044,9 +38090,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ship: {fileID: 1994155088}
-  FoodCost: {fileID: 1018050551}
-  WaterCost: {fileID: 576129097}
-  MaterialCost: {fileID: 1134378554}
+  Canvas: {fileID: 2752270}
+  FoodCostText: {fileID: 1018050551}
+  WaterCostText: {fileID: 576129097}
+  MaterialCostText: {fileID: 1134378554}
 --- !u!70 &2145053638
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

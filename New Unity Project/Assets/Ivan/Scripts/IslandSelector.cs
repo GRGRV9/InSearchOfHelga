@@ -7,7 +7,8 @@ public class IslandSelector : MonoBehaviour
     public GameObject NavigationMarker;
     public Vector3 PickedIslandPosition;
     public GameObject Ship;    
-    public float DistanceToMarker;
+    float DistanceToMarker;
+    public AudioSource ShipStartSound;
 
     void Update()
     {
@@ -23,7 +24,8 @@ public class IslandSelector : MonoBehaviour
 
             if(hit.collider.gameObject.tag == "Island")
             {                       
-                NavigationMarker.transform.position = hit.collider.gameObject.transform.position;                
+                NavigationMarker.transform.position = hit.collider.gameObject.transform.position;
+                ShipStartSound.Play();
                 CalculateDistanceToMarker();
             }
             else
