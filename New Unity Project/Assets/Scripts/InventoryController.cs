@@ -36,7 +36,7 @@ public class InventoryController : MonoBehaviour
         controller.SetBool(Open1, true);
     }
 
-    public void SelectItem(ItemObject obj)
+    public void SelectItem(InventorySlot obj)
     {
         if (obj==null)
         {
@@ -44,8 +44,8 @@ public class InventoryController : MonoBehaviour
             text.text = "";
             return;
         }
-        text.text = obj.description;
-        selectedImage.sprite = obj.image;
+        text.text = obj.item.description;
+        selectedImage.sprite = obj.item.image;
         selectedImage.enabled = true;
     }
 }

@@ -8,29 +8,21 @@ using UnityEngine.UI;
 public class InventoryItem : MonoBehaviour,IPointerClickHandler
 {
     public Image item;
-    public ItemObject data;
-    // Start is called before the first frame update
+    public InventorySlot data;
     public InventoryController controller;
-    void Start()
-    {
-        
-    }
+    [SerializeField] private Text amountText;
 
-    public void SetItem(ItemObject obj)
+
+    public void SetItem(InventorySlot obj)
     {
-        item.sprite = obj.image;
+        item.sprite = obj.item.image;
         data = obj;
+        amountText.text = obj.amount.ToString();
         item.enabled = true;
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
         controller.SelectItem(data);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
