@@ -287,6 +287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 30254595}
   - component: {fileID: 30254594}
+  - component: {fileID: 30254596}
   m_Layer: 0
   m_Name: Helga
   m_TagString: Untagged
@@ -327,6 +328,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &30254596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30254593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7d102fd550c5df41a997b8c02ce37cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &163911899
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,6 +834,7 @@ GameObject:
   - component: {fileID: 1152627441}
   - component: {fileID: 1152627440}
   - component: {fileID: 1152627439}
+  - component: {fileID: 1152627442}
   m_Layer: 0
   m_Name: "\u0441\u0446\u0435\u043D\u0430 4"
   m_TagString: Untagged
@@ -912,6 +926,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1152627442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152627438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7d102fd550c5df41a997b8c02ce37cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1288054592
 GameObject:
   m_ObjectHideFlags: 0
