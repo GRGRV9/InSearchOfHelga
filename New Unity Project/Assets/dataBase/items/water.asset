@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75f1646b1ccc40cc8abf17f64f9b2d97, type: 3}
   m_Name: water
   m_EditorClassIdentifier: 
+  id: 3
+  type: 1
   image: {fileID: 21300000, guid: c057b037bd8b8430f8149b6dfd6d9443, type: 3}
   description: water
+  restoreValue: 1

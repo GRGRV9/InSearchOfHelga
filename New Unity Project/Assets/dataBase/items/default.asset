@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75f1646b1ccc40cc8abf17f64f9b2d97, type: 3}
   m_Name: default
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
+  id: 0
+  type: 0
+  image: {fileID: 21300000, guid: c08334005edb14e95983035b09e1404c, type: 3}
   description: 
+  restoreValue: 0

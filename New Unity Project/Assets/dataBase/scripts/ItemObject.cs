@@ -14,7 +14,9 @@ public enum TypeItem
 
 public abstract class ItemObject : ScriptableObject
 {
+    public int id;
     public TypeItem type;
     public Sprite image;
     [TextArea(15, 20)] public string description;
+    public float restoreValue;
 }

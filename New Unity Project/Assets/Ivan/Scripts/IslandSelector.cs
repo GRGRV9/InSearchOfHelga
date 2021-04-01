@@ -10,6 +10,7 @@ public class IslandSelector : MonoBehaviour
     public Vector3 PickedIslandPosition;
     public GameObject MiniShip;    
     public float DistanceToMarker;
+    bool selectorIsActive = false;
 
     public AudioSource ShipStartSound;
     public GameObject LevelShip;
@@ -17,6 +18,7 @@ public class IslandSelector : MonoBehaviour
 
     public GameObject Map;
     public GameObject OpenMapButton;
+    public GameObject PlayerInventory;
 
     public Slider MaterialSlider;
     public Slider FoodSlider;
@@ -58,6 +60,16 @@ public class IslandSelector : MonoBehaviour
 
     }
 
+    public void SetIslandSelectorOn()
+    {
+        selectorIsActive = true;
+    }
+
+    public void SetIslandSelectorOff()
+    {
+        selectorIsActive = false;
+    }
+
     void MouseInput()
     {
         if (Input.GetMouseButtonDown(0))
@@ -65,26 +77,33 @@ public class IslandSelector : MonoBehaviour
             Vector2 raycastPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             RaycastHit2D hit = Physics2D.Raycast(raycastPosition, Vector2.zero);
 
-            if(hit.collider.gameObject.tag == "Island")
-            {                       
-                NavigationMarker.transform.position = hit.collider.gameObject.transform.position;
-                ShipStartSound.Play();
-                CalculateCostOfTravel();
-                NavigationMarkerObject.SetActive(false);
-                StartCoroutine(ShipAnimatorSwitcher());        
-                
-            }            
+            if (selectorIsActive)
+            {
+                if (hit.collider.gameObject.tag == "Island")
+                {
+                    NavigationMarker.transform.position = hit.collider.gameObject.transform.position;
+                    ShipStartSound.Play();
+                    CalculateCostOfTravel();
+                    NavigationMarkerObject.SetActive(false);
+                    StartCoroutine(ShipAnimatorSwitcher());
+
+                }
+            }                    
         }
     }
 
     private IEnumerator ShipAnimatorSwitcher()
     {        
         ShipAnimator.SetBool("IsStarted", true);
+        SetIslandSelectorOff();
+        PlayerInventory.SetActive(false);
         yield return new WaitForSeconds(2f);
         Map.SetActive(false);
         NavigationMarkerObject.SetActive(true);
         OpenMapButton.SetActive(true);
-        ShipAnimator.SetBool("IsStarted", false);        
+        ShipAnimator.SetBool("IsStarted", false);
+        PlayerInventory.SetActive(true);
+
     }
 
     void CalculateCostOfTravel()
